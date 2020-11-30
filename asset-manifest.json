@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Jordan/static/css/main.d4b97dc1.chunk.css",
+    "main.js": "/Jordan/static/js/main.e9479618.chunk.js",
+    "main.js.map": "/Jordan/static/js/main.e9479618.chunk.js.map",
+    "runtime-main.js": "/Jordan/static/js/runtime-main.67e65e3e.js",
+    "runtime-main.js.map": "/Jordan/static/js/runtime-main.67e65e3e.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/Jordan/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.9fa82a09.chunk.js": "/Jordan/static/js/2.9fa82a09.chunk.js",
+    "static/js/2.9fa82a09.chunk.js.map": "/Jordan/static/js/2.9fa82a09.chunk.js.map",
+    "static/js/3.f54c50db.chunk.js": "/Jordan/static/js/3.f54c50db.chunk.js",
+    "static/js/3.f54c50db.chunk.js.map": "/Jordan/static/js/3.f54c50db.chunk.js.map",
+    "index.html": "/Jordan/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/Jordan/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.d4b97dc1.chunk.css.map": "/Jordan/static/css/main.d4b97dc1.chunk.css.map",
+    "static/js/2.9fa82a09.chunk.js.LICENSE.txt": "/Jordan/static/js/2.9fa82a09.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/Jordan/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67e65e3e.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.9fa82a09.chunk.js",
+    "static/css/main.d4b97dc1.chunk.css",
+    "static/js/main.e9479618.chunk.js"
+  ]
+}
