@@ -1,14 +1,15 @@
 import { Component } from "react";
 import Typed from "react-typed"
+import { Link } from "react-router-dom";
 
 class Header extends Component {
 
     render() {
         
         return (
-            <div className="header">
+            <div className="container">
                 <div id="lead">
-                    <h1 className="display-1 text-center">
+                    <h1 className="display-1 text-center" id="lead">
                         <Typed
                             strings={['Hello!', 'こんにちわ!']}
                             typeSpeed={80}
@@ -18,12 +19,12 @@ class Header extends Component {
                     </h1>
                 </div>
 
-                <h3 className="text-center">
-                    I'm Jordan. I like writing software
-                </h3>
-                <div className="pr-2 text-center">
-                    <h2><a href="">Contact me</a></h2>
+                <div className="display-5 text-center">
+                    <h2> <Link to="/about">About</Link> </h2>
+                    <h2> <Link to="/contact">Contact me</Link> </h2>
+                    <h2> <Link to="/projects">Work</Link> </h2>
                 </div>
+                
             </div>
             
         )
