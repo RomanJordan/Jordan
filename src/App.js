@@ -28,10 +28,11 @@ const Links = () => (
 
 function App() {
   return (
-    <BrowserRouter>
-      <h4 class="display-4"><Link to="/">Jordan</Link></h4>
+    <BrowserRouter basename='/'>
+      <h4 class="display-4"><Link to="/Jordan">Jordan</Link></h4>
       <p class="mt-1 mb-1">New York City</p>
       <p class="mt-1 mb-1">Jordan.Roman90@gmail.com</p>
+      <a href="https://github.com/RomanJordan/JRoman/raw/master/JordanRomanResume_v3.pdf">Resume</a>
       <Route
         render={({ location }) => {
           return (
@@ -40,7 +41,7 @@ function App() {
               transitionKey={location.pathname}
             >
               <Switch location={location}>
-                <Route exact path="/" component={Header} />
+                <Route exact path="/Jordan" component={Header} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/projects/mshortstories" component={mshortstories} />
                 <Route exact path="/projects/chip8" component={chip8} />
